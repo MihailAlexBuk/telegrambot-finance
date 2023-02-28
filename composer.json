@@ -1,0 +1,20 @@
+{
+    "name": "bm/telegram-bot",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "MihailAlexBuk",
+            "email": "mihail.alexbuk@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "ext-json": "*",
+      "ext-curl": "*",
+      "ext-pdo": "*"
+    }
+}
